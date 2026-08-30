@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#notfound{
+    height: 100vh;
+    background-color: black;
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+}
