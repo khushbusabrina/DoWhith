@@ -400,7 +400,7 @@ p {
     font-weight: 500;
     color:#848FAC ;
     margin-top:24px;
-    margin-bottom:40px;
+    margin-bottom:10px;
     line-height:150% ;
   }
   .pricinglist li{
@@ -414,19 +414,40 @@ p {
   .pricinglist{
     display: flex;
     flex-direction: column;
-    gap: 0px;
   }
   .pricinglist li span i{
-    font-size:20px;
+    font-size:22px;
     color: #219653;
   }
     .pricinglist li p{
-      font-size: 16px;
+      font-size: 20px;
       font-weight:600 ;
       color:#192252;
     }
-    .pricing_unorderlist{
-      
-    }
+    
   
  /* pricing part end */
+   /* partnership part start */
+   #partnership{
+    padding: 40px 152px 62px 152px;
+    margin-top: 100px;
+   }
+    .partnership_part_wrapper{
+      display: flex;
+      justify-content: space-between;
+    }
+    .partnerheading h6{
+      font-size:24px;
+      font-weight:500 ;
+      color:#848FAC;
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .partner img{
+      height: 200px;
+      width: 200px;
+      overflow: hidden;
+      object-fit: cover;
+    }
+
+   /* partnership part end */
