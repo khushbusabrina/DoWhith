@@ -728,17 +728,24 @@ p {
         opacity:25%;
       }
       .feedbackcirclewrape :nth-child(5){
-        border:1px solid #fff;
+        border:2px solid #fff;
         opacity:64%;
+      } 
+
+      .circle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
       }
       .circle i{
-        color: white;
-        background: transparent;
-        position: absolute;
-        left: 50%;
-        
-        top: 50%;
-        transform: translate(-50%,-50%);
+        color: white !important;
+        font-size: 50px;
+        background-color: transparent !important;
+    
+      
        
       }
       .feedbackcirclewrape{
