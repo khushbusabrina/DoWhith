@@ -172,9 +172,12 @@ p {
 
 }
 .banner_btn{
-   background-color:#ffffff;
+   background-color:#fff;
+  
     border-radius: 8PX;
     padding: 20px 53px;
+    position: relative;
+    z-index: 1000;
  
 }
 .banner_userimg{
@@ -451,3 +454,460 @@ p {
     }
 
    /* partnership part end */
+        /* planning part start */
+      #planning{
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+      .planningheadingwrape{
+        
+         max-width: 660px;
+         margin: 0 auto;
+        
+       
+        text-align: center;
+      }
+      .planehead{
+        font-size: 52px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        
+        
+      }
+      .planningheadingwrape p{
+          color: #848FAC;
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 64px;
+        
+
+      }
+      .planingwrape{
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+      }
+      .planning_package{
+        width: 515px;
+      }
+      
+      
+      .packages{
+        padding: 16.5px 24px ;
+        border: 1.5px solid #848FAC;
+        border-radius: 16px;
+        margin-bottom: 24px;
+      }
+      .packages{
+        display: flex;
+        gap: 28px;
+        align-items: center;
+       
+      }
+      .plane-btnwrape{
+        display: flex;
+        gap: 8px;
+      }
+      .pack_price{
+        display: flex;
+        align-items: center;
+         justify-content: space-between;
+         width: 100%;
+      
+      }
+      .planh4{
+        font-size: 20px;
+        font-weight: 700;
+        color: #192252;
+        font-family: "Urbanist", sans-serif;
+          transition: all linear 0.3s;
+      }
+      .plan_p{
+        font-size: 16px;
+        font-weight: 500;
+        color: #848FAC;
+        max-width: 226px;
+        margin-top: 10px;
+          transition: all linear 0.3s;
+      }
+      .money{
+        font-size: 32px;
+        font-weight: 700;
+        color: #192252;
+          transition: all linear 0.3s;
+      }
+      .price_duration{
+        font-size: 16px;
+        font-weight: 500;
+        color: #848FAC;
+          transition: all linear 0.3s;
+      }
+      .pack_price_amount{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .save-btn{
+        font-size: 12px;
+        font-weight:600;
+        background-color:rgba(33, 150, 84, 0.05) ;
+        border-radius:11px ;
+        color:#219653 ;
+        padding:4px 12px;
+        border: none;
+          transition: all linear 0.3s;
+      }
+       .packages:hover{
+        background-color: #6245D5;
+        border: 1px solid #6245D5;
+       }
+        .packages:hover .money, .packages:hover .planh4{
+          color: #fff;
+            transition: all linear 0.3s;
+        }
+        .packages:hover .plan_p, .packages:hover .price_duration{
+          color: rgba(255, 255, 255, 0.64);
+            transition: all linear 0.3s;
+        }
+         .packages:hover .save-btn{
+          background-color:rgba(255, 255, 255, 0.08) ;
+          color: rgba(255, 255, 255, 0.8);
+          transition: all linear 0.3s;
+         }
+         .pack_radio input[type="radio"]::after{
+          margin-top: 14px;
+          height: 24px;
+          width: 24px;
+          border-radius: 50%;
+          position: relative;
+          content: "";
+          top:50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          border: 2px solid #848FAC;
+          background-color: #fff;
+          display: inline-block;
+          visibility: visible;
+         }
+        .pack_radio input[type="radio"]:checked::after{
+          position: relative;
+          content: "";
+          visibility: visible;
+          display: inline-block;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          height: 17px;
+          width: 17px;
+          border-radius: 50%;
+          background: #6245D5;
+          border:  6px solid white;
+          cursor: pointer;
+        }
+        .planingdescrption{
+        width: 525px;
+        height: 545px;
+        background-color: #F7F7F7;
+        padding: 48px 48px 68px 52px;
+        border-radius: 16px;
+        }
+       .planlistitem{
+        display: flex;
+        justify-content: space-between;
+       }
+       .plandesinfo{
+        font-size:18px;
+        font-weight:500 ;
+        color:#192252 ;
+       }
+       .plandesicon i{
+        color: #6245D5;
+       }
+       .plan_list_wrape{
+        display: flex;
+        flex-direction: column;
+        gap: 53px;
+       }
+       .tollgle_btn_wrape{
+        background-color: white;
+         display: inline-block;
+        padding: 4px;
+        border-radius: 40px;
+        margin-bottom: 48px;
+       
+       
+       
+       }
+      .tollgle_btn_wrape button{
+        font-size: 16px;
+        font-weight: 600;
+        color: #848FAC;
+        border: none;
+        background-color: transparent;
+        padding: 13px 23px;
+        border-radius: 22px;
+        background-color: transparent;
+      }
+       .tollgle_btn_wrape button.active{
+        background-color:#FC9770 ;
+        color: white;
+        
+       }
+        /* planning part end */
+       /* feedback part start  */
+     #feedback{
+      background-color :#201353;
+      padding: 100px 0;
+     }
+     .feedbackinfo h3{
+      font-size: 52px;
+      font-weight: 700;
+      color: #fff;
+      margin-top: 24px;
+      max-width: 548px;
+      margin-bottom: 24px;
+     }
+     .feedbackinfo p{
+      font-size:18px ;
+      font-weight:500 ;
+      color:rgba(255, 255, 255, 0.64) ;
+      line-height: 150%;
+      max-width: 434px;
+      margin-bottom: 64px;
+     }
+     .quatename span{
+       font-size:20px;
+      font-weight:500 ;
+       color:rgba(255, 255, 255, 0.64) ;
+      line-height: 150%;
+  
+     }
+    
+    
+    .quettext p{
+    font-size:20px;
+    font-weight:500 ;
+     color:#fff ;
+     line-height: 150%;
+     max-width: 490px;
+     margin-top: 48px;
+     margin-bottom: 46px;
+    
+    } 
+     .quettext{
+      max-width: 490px;
+      margin-top: 48px;
+     margin-bottom: 46px
+     }
+      
+    
+      .feedback_wraper{
+        display: flex;
+        justify-content: space-between;
+
+      }
+      .circle{
+        height:64px ;
+        width:64px;
+        border-radius: 50%;
+        position: relative;
+      }
+      .feedbackcirclewrape :nth-child(1){
+        background-color: #D9D9D9;
+      }
+      .feedbackcirclewrape :nth-child(2){
+        background-color: #D9D9D9;
+        opacity: 75%;
+      }
+      .feedbackcirclewrape :nth-child(3){
+        background-color:#D9D9D9;
+        opacity: 50%;
+      }
+      .feedbackcirclewrape :nth-child(4){
+        background-color:#D9D9D9;
+        opacity:25%;
+      }
+      .feedbackcirclewrape :nth-child(5){
+        border:1px solid #fff;
+        opacity:64%;
+      }
+      .circle i{
+        color: white;
+        background: transparent;
+        position: absolute;
+        left: 50%;
+        
+        top: 50%;
+        transform: translate(-50%,-50%);
+       
+      }
+      .feedbackcirclewrape{
+        display: flex;
+        gap: 24px;
+        margin-top: 48px;
+      }
+      .feedback_input{
+        height:678px;
+        width:600px;
+        background: rgba(255, 255, 255, 0.12);
+        border-radius: 24px;
+        padding: 64px 80px;
+      }
+      .email{
+        display: flex;
+        flex-direction: column;
+      }
+      .meassage{
+        display: flex;
+        flex-direction: column;
+      }
+      .logoimg{
+        text-align: center;
+        margin-bottom: 24px;
+      }
+      .feedback_input h4{
+        font-size: 24px;
+        font-weight:700 ;
+        color:#fff ;
+        margin-bottom: 48px;
+        text-align: center;
+      }
+      .email label{
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 16px;
+      }
+      .email input[type="email"]{
+        padding: 14px 305px 14px 24px;
+        border-radius: 8px;
+        margin-bottom: 24px;
+      }
+      .email input[type="email"]::placeholder{
+        font-size:16px ;
+        font-weight:400 ;
+        color: #848FAC;
+      }
+      .meassage label{
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 16px;
+      }
+     .meassage  input[type="text"]{
+        padding: 14px 283px 42px 24px;
+        border-radius: 8px;
+        margin-bottom: 40px;
+     }
+  .meassage  input[type="text"]::placeholder{
+        font-size:16px ;
+        font-weight:400 ;
+        color: #848FAC;
+  }
+  .request button{
+  
+    background: transparent;
+    border: none;
+  }
+  .request{
+    
+    background-color:#FC9770 ;
+   
+    border-radius:8px ;
+    font-size:18px ;
+    font-weight:700 ;
+    color:#fff ;
+     
+   
+    padding: 20px 140.5px;
+    width: 440px;
+  }
+  .trial{
+     text-align: right;
+     margin-top: 24px;
+  }
+  .trial button{
+    background-color: transparent;
+    font-size:14px ;
+    font-weight:400 ;
+    color:#fff;
+    border: none;
+  }
+  .trial button span{
+    color: rgba(255, 255, 255, 0.64);
+
+  }
+       /* feedback part end */
+       /* footer part start */
+       #footer{
+        background-color: #201353;
+        padding: 100px 0;
+       }
+       .foooterwrapr{
+        display: flex;
+        gap: 207px;
+        margin-bottom: 64px;
+       }
+       .fotterinfo p{
+        font-size: 18px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.64);
+        width: 332px;
+        margin-top: 24px;
+       }
+       .fotterdetails{
+        display: flex;
+       gap: 93px;
+       }
+       .menutype h5{
+        font-size:16px ;
+        font-weight:700 ;
+        color:#fff ;
+        margin-bottom: 19px;
+       }
+       .menutype ul{
+           display: flex;
+           flex-direction: column;
+           gap: 24px;
+       }
+        .menutype ul li a{
+          font-size:16px ;
+          font-weight: 400;
+          color:rgba(255, 255, 255, 0.8) ;
+        }
+        .line{
+          width: 100%;
+          height: 1px;
+          background-color: #515151;
+          margin-bottom: 32px;
+        }
+        .copycircle{
+          height: 40px;
+          width: 40px;
+          border:  1px solid #CAC0F3;
+          border-radius: 50%;
+          position: relative;
+        }
+      .copycircle i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+      }
+
+        .copyicon{
+          display: flex;
+          gap: 16px;
+          
+        }
+        .copyrightpart{
+          display: flex;
+          justify-content: space-between;
+        }
+        .copyrighttext{
+          font-size:16px;
+          font-weight:400 ;
+          color: rgba(255, 255, 255, 0.50);
+        }
+         /* footer part end */
